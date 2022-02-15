@@ -14,15 +14,15 @@ from numpy import imag
 
 
 #Capture Videos
-capture = cv.VideoCapture('videos/dog.mp4')
+# capture = cv.VideoCapture('videos/dog.mp4')
 
-while True:
-    isTrue, frame = capture.read()
-    cv.imshow('Video', frame)
+# while True:
+#     isTrue, frame = capture.read()
+#     cv.imshow('Video', frame)
     
-    if cv.waitKey(20) & 0xFF==ord('d'):
-        break
+#     if cv.waitKey(20) & 0xFF==ord('d'):
+#         break
 
-capture.release()
-cv.destroyAllWindows()   
+# capture.release()
+# cv.destroyAllWindows()   
     
