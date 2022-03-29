@@ -5,8 +5,8 @@ import cv2 as cv
 from cv2 import UMat
 from numpy import imag
 
-#Capture Images
-# cv.imread('photos/cat_large.jpg')
+# Capture Images
+# img = cv.imread('photos/cat_large.jpg')
 
 # cv.imshow('Cat', img)
 
